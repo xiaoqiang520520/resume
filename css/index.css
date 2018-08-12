@@ -263,7 +263,7 @@ nav a span{
 .production ul li:first-child{
     font-size:20px;
     font-weight: bold;
-    border-left:100px solid #fff;
+    border-left:20px solid #fff;
     box-sizing: border-box;
     /*border-right:20px solid #fff;*/
 
@@ -365,6 +365,8 @@ nav a span{
     .skill ul li:last-child{
         width: 70%;
         margin:79px auto;
+        box-sizing: border-box;
+        border-right: 20px solid #fff;
 
 
     }
@@ -423,6 +425,8 @@ nav a span{
     .skill ul li:last-child{
         width: 70%;
         margin:79px auto;
+        box-sizing: border-box;
+        border-right: 20px solid #fff;
 
     }
     header{
