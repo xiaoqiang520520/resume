@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 602px;
+    /*background:pink;*/
+    background: #4c7f88;
+    /*padding-top: 37px;*/
+    background: url(../img/manbackgroundmax.jpg) no-repeat center;
+    /*background-size: 100% 602px;*/
+    /*background-position:0 0;*/
+    overflow: hidden;
+}
+nav{
+    width: 788px;
+    height: 19px;
+    /*background: greenyellow;*/
+    margin: 0 auto;
+    margin-top: 37px;
+}
+nav a span{
+    display: block;
+    float: left;
+    font-size: 15px;
+    color: #fefefe;
+    padding-right: 77px;
+}
+.yourname{
+    width:100%;
+    height: 79px;
+    /*background: aqua;*/
+    margin-top: 58px;
+
+}
+.yourname span{
+    display: block;
+    /*height: 79px;*/
+    /*width: 213px;*/
+    text-align: center;
+    /*font-size: 57px;*/
+    /*margin: 0 auto;*/
+    color: #fefefe;
+    /*line-height:79px;*/
+
+}
+.Englishname{
+    width:100%;
+    height: 38px;
+    /*background: green;*/
+}
+.Englishname span{
+    display: block;
+    height: 38px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 38px;
+    color: #fafbfc;
+}
+.introduction{
+    width:100%;
+    height: 75px;
+    /*background: blue;*/
+}
+.introduction span{
+   display: block;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: #00ffff;
+    font-size: 15px;
+}
+.logo{
+    width:100%;
+    /*height:100%;*/
+    /*background:green;*/
+    margin-top:17px;
+}
+.logo ul{
+    width:292px;
+    height:61px;
+    margin:0 auto;
+}
+.logo ul li{
+    width:73px;
+    height:61px;
+    /*padding-right:12px;*/
+    float:left;
+
+}
+.logo ul li:first-child{
+    background: url(../img/Facebook.png) no-repeat left;
+    background-size:61px 61px;
+}
+.logo ul li:nth-child(2){
+    background:url(../img/Twitter.png) no-repeat left;
+    background-size:61px 61px;
+
+}
+.logo ul li:nth-child(3){
+    background:url(../img/Tel.png) no-repeat left;
+    background-size:61px 61px;
+
+}
+.logo ul li:nth-child(4){
+    background:url(../img/WeChat.png) no-repeat left;
+    background-size:61px 61px;
+
+}
+.down{
+    width:100%;
+    height:53px;
+    /*background:blue;*/
+    margin-top:89px;
+}
+.icon-unie621:hover{
+    color:#00FFFF;
+}
+.icon-unie621{
+    display:block;
+    width:53px;
+    height:53px;
+    font-size:53px;
+    color:#fff;
+    margin:0 auto;
+}
+.nav2{
+   width:100%;
+    height:46px;
+    /*background:pink;*/
+    padding-top:31px;
+    padding-bottom:9px;
+}
+.bag{
+
+    width:80px;
+    height:46px;
+    background:#000;
+    color:#fff;
+    font-size:15px;
+    /*text-align:center;*/
+    line-height:46px;
+    margin: 0 auto;
+    /*float: left;*/
+
+
+}
+.icon-caidanlan{
+    display:block;
+    /*width:37px ;*/
+    color:#fff;
+    margin:0 auto;
+
+    margin-left:16px;
+    margin-right:5px;
+    float:left;
+
+}
+.nav2 bag .span{
+    display:block;
+
+    float:right;
+}
+.personal-introduction{
+    width:100%;
+    height:530px;
+    background:#d2dbe1;
+}
+.personal-introduction ul{
+    width:100%;
+    height:530px;
+}
+.personal-introduction ul li:first-child{
+    /*width:40%;*/
+    height:530px;
+    background:#d2dbe1;
+    float:left;
+
+}
+.personal-introduction ul li:last-child{
+    /*width:60%;*/
+    height:530px;
+    background:#d2dbe1;
+    float:right;
+
+}
+.personal-introduction ul li img{
+    display:block;
+    width: 300px;
+    height:300px;
+    border-radius:50%;
+    /*margin:83px auto 0;*/
+
+
+}
+.personal-introduction ul li p{
+    width:100%;
+    height:369px;
+    background:#234a68;
+    margin:61px auto 0;
+    color:#fff;
+    /*font-size:13px;*/
+    line-height:31px;
+    box-sizing:border-box;
+    border:40px solid #234a68;
+    border-bottom:0;
+    /*border-left:41px solid #234a68;*/
+
+}
+.skill{
+    width:100%;
+    height:260px;
+    /*background:blue;*/
+}
+.skill ul li:first-child{
+    /*width:30%;*/
+    height:260px;
+    background:#fff;
+    float:left;
+
+}
+.skill ul li:last-child{
+    /*width: 70%;*/
+    height:260px;
+    background:#fff;
+    float:right;
+}
+.skill ul li span{
+    display:block;
+    width:115px;
+    height:66px;
+    background:#fff;
+    margin:59px auto 0;
+    font-size:20px;
+    color:#333;
+    line-height:66px;
+    text-align:center;
+    border-bottom:1px solid #11abb0;
+
+}
+.skill ul li p{
+    width:100%;
+    height:175px;
+    background:#fff;
+    color:#696969;
+    line-height:25px;
+    /*padding-left:10px;*/
+    /*padding-right:10px;*/
+
+}
+.production{
+   width: 100%;
+    height:125px;
+    /*background:red;*/
+    float:left;
+    margin-top: 100px;
+    background: #fff;
+    /*padding-left: 20px;*/
+
+}
+.production ul li:first-child{
+    font-size:20px;
+    font-weight: bold;
+    border-left:100px solid #fff;
+    box-sizing: border-box;
+    /*border-right:20px solid #fff;*/
+
+
+}
+.production ul li{
+    float:left;
+    width:25%;
+
+
+}
+.production ul li a{
+    display:block;
+    text-decoration:none;
+    color:#9a7731;
+}
+.production ul li:hover a{
+    text-decoration:underline;
+    color:red;
+}
+.Englishname span a{
+    color:#11abb0;
+    text-decoration:none;
+}
+ .introduction .emaill{
+    color:white;
+
+}
+ .emaill a{
+     text-decoration:none;
+     color:#11abb0;
+
+ }
+ .copyright{
+     width: 100%;
+     margin-top:28px;
+     color:#fff;
+     font-size: 16px;
+     text-align: center;
+
+
+ }
+ .last1{
+     background: #103b5b;
+ }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+    header nav{
+        display:block;
+    }
+    .nav2{
+        display:none;
+    }
+    .yourname span{
+
+        font-size: 56px;
+        margin: 0 auto;
+        line-height:79px;
+        height: 79px;
+    }
+    .personal-introduction ul li:first-child{
+        width:40%;
+
+
+    }
+    .personal-introduction ul li:last-child{
+        width:60%;
+
+
+    }
+    .personal-introduction ul li img{
+        display:block;
+        width: 300px;
+        height:300px;
+        border-radius:50%;
+        margin:83px auto 0;
+    }
+    .personal-introduction ul li p{
+
+        font-size:13px;
+
+
+    }
+    .skill ul li:first-child{
+        width:30%;
+
+
+    }
+    .skill ul li:last-child{
+        width: 70%;
+        margin:79px auto;
+
+
+    }
+    header{
+
+        background-size: 100% 602px;
+
+    }
+
+
+
+
+}
+@media screen and (max-width:1200px){
+    header nav{
+        display:block;
+    }
+    .nav2{
+        display:none;
+    }
+    .yourname span{
+
+        font-size: 56px;
+        margin: 0 auto;
+        line-height:79px;
+        height: 79px;
+    }
+    .personal-introduction ul li:first-child{
+        width:40%;
+
+
+    }
+    .personal-introduction ul li:last-child{
+        width:60%;
+
+
+    }
+    .personal-introduction ul li img{
+        display:block;
+        width: 300px;
+        height:300px;
+        border-radius:50%;
+        margin:83px auto 0;
+    }
+    .personal-introduction ul li p{
+
+        font-size:13px;
+
+
+    }
+    .skill ul li:first-child{
+        width:30%;
+
+
+    }
+    .skill ul li:last-child{
+        width: 70%;
+        margin:79px auto;
+
+    }
+    header{
+
+        background-size: 100% 602px;
+
+    }
+}
+@media screen and (max-width:992px){
+     header nav{
+         display:none;
+    }
+    .nav2{
+        display:block;
+    }
+    .yourname span{
+
+        font-size: 56px;
+        margin: 0 auto;
+        line-height:79px;
+        height: 79px;
+    }
+    .personal-introduction ul li:first-child{
+        width:100%;
+    }
+    .personal-introduction ul li:last-child{
+        width:100%;
+    }
+    .personal-introduction ul li img{
+
+        margin:230px auto 0;
+    }
+    .personal-introduction ul li p{
+
+        font-size:15px;
+
+
+    }
+    .skill ul li:first-child{
+        width:100%;
+    }
+    .skill ul li:last-child{
+        width: 100%;
+        margin:0 auto;
+        /*padding-left:20px;*/
+        /*padding-right:20px;*/
+        border-left:20px solid #fff;
+        box-sizing: border-box;
+        border-right:20px solid #fff;
+
+
+
+    }
+    header{
+
+        background-size: 1200px 602px;
+        background-position:0 0;
+
+    }
+
+
+    }
+@media screen and (max-width:768px){
+    header nav{
+        display:none;
+    }
+    .nav2{
+        display:block;
+    }
+    .yourname span{
+
+        font-size: 29px;
+        margin: 0px auto;
+        height: 29px;
+        padding-top:15px;
+    }
+    .personal-introduction ul li:first-child{
+        width:100%;
+    }
+    .personal-introduction ul li:last-child{
+        width:100%;
+    }
+    .personal-introduction ul li img{
+        display:block;
+        width: 300px;
+        height:300px;
+        border-radius:50%;
+        margin:173px auto 0;
+    }
+    .personal-introduction ul li p{
+
+        font-size:15px;
+
+    }
+    .skill ul li:first-child{
+        width:100%;
+    }
+    .skill ul li:last-child{
+        width: 100%;
+        margin:0 auto;
+        border-left:20px solid #fff;
+        box-sizing: border-box;
+        border-right:20px solid #fff;
+
+
+    }
+    header{
+
+        background-size: 1200px 602px;
+        background-position:0 0;
+
+    }
+}
